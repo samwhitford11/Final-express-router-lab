@@ -1,4 +1,4 @@
-const URL = "https://express-react-lab-2uoq.onrender.com/"
+const URL = "https://express-react-lab-2uoq.onrender.com"
 
 export const projectsLoader = async () => {
     const response = await fetch(URL + "/project")
